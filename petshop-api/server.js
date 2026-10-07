@@ -10,6 +10,7 @@
 import express from 'express';
 import cors from 'cors';
 import clientesRouter from './routes/clientes.js';
+import servicosRouter from './routes/servicos.js';
 
 const app = express();
 const PORT = 3001;
@@ -24,6 +25,7 @@ app.use(express.json());
 // Ex.: o router.get('/:id') de clientes.js vira, na prática, /api/clientes/:id.
 app.use('/api/clientes', clientesRouter);
 
+app.use('/api/servicos', servicosRouter);
 // -------------------------------------------------------------------------
 // PONTO DE EXERCÍCIO
 // -------------------------------------------------------------------------
