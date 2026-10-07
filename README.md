@@ -1,5 +1,7 @@
 # Petshop — projeto de Fundamentos de Desenvolvimento para Internet
 
+Uma alteração...
+
 Neste projeto você vai trabalhar em um sistema de cadastro de clientes de um
 petshop, dividido em dois projetos independentes:
 
